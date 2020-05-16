@@ -1,0 +1,140 @@
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  color: #40514e;
+  line-height: 2;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  margin: 30px auto;
+}
+
+.intro {
+  width: 80%;
+  margin: auto;
+}
+
+.pro {
+  font-weight: normal;
+}
+
+.middle-container {
+  margin: 75px auto;
+  width: 50%;
+}
+
+hr {
+  border-style: dotted none none;
+  height: 0px;
+  width: 15%;
+  border-width: 5px;
+  border-radius: 0px;
+  color: #00a1ab;
+}
+
+.skill-row {
+  margin: 30px auto 30px auto;
+  text-align: left;
+}
+
+.img1 {
+  height: 108px;
+  width: 108px;
+  border-radius: 100%;
+  float: left;
+  margin: 10px 30px 0 0;
+}
+
+.img2 {
+  width: 96px;
+  height: 96px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+  margin: 0 auto 0 auto;
+}
+
+.contact-me {
+  margin-bottom: 3px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+}
+
+a {
+  color: #11999e;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  margin: 20px auto 0 auto;
+}
+
+.btn {
+  background-color: #55c57a;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 10px;
+  text-transform: uppercase;
+  position: relative;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: normal;
+  border: solid #7dd56f;
+  margin-top: 50px;
+}
+
+.btn:hover {
+  background-color: #ff5200;
+  border: solid #00005c;
+}
+/*
+.btn:hover {
+  background-color: #7dd56f;
+}
+*/
